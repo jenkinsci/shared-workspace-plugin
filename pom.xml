@@ -17,9 +17,8 @@
 		</license>
 	</licenses>
 
-	<groupId>org.jenkins-ci.plugins</groupId>
 	<artifactId>shared-workspace</artifactId>
-	<version>1.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
 	<!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
@@ -45,9 +44,19 @@
 		<maven-hpi-plugin.version>1.95</maven-hpi-plugin.version>
 	</properties>
 
+	<url>http://wiki.jenkins-ci.org/display/JENKINS/Shared+workspace+plugin</url>
+
 	<scm>
-		<connection>scm:git:ssh://github.com/sapone/shared-workspace.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/sapone/shared-workspace.git</developerConnection>
-		<url>https://github.com/sapone/shared-workspace</url>
+		<connection>scm:git:ssh://github.com/jenkinsci/shared-workspace-plugin.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/shared-workspace-plugin.git</developerConnection>
+		<url>https://github.com/jenkinsci/shared-workspace-plugin</url>
 	</scm>
+
+	<developers>
+		<developer>
+			<id>sapone</id>
+			<name>Sergey Mylnikov</name>
+			<email>smylnikov@ac-sw.com</email>
+		</developer>
+	</developers>
 </project>
