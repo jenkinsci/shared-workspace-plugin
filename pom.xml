@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>1.509.1</version><!-- which version of Jenkins is this plugin built against? -->
+		<version>1.565.3</version><!-- which version of Jenkins is this plugin built against? -->
 	</parent>
 
 	<licenses>
@@ -43,6 +43,14 @@
 		-->
 		<maven-hpi-plugin.version>1.95</maven-hpi-plugin.version>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.jenkins-ci.plugins</groupId>
+			<artifactId>matrix-project</artifactId>
+			<version>1.4</version>
+		</dependency>
+	</dependencies>
 
 	<url>http://wiki.jenkins-ci.org/display/JENKINS/Shared+workspace+plugin</url>
 
