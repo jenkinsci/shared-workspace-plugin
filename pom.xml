@@ -18,7 +18,7 @@
 	</licenses>
 
 	<artifactId>shared-workspace</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>hpi</packaging>
 
 	<!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
@@ -58,7 +58,8 @@
 		<connection>scm:git:ssh://github.com/jenkinsci/shared-workspace-plugin.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/shared-workspace-plugin.git</developerConnection>
 		<url>https://github.com/jenkinsci/shared-workspace-plugin</url>
-	</scm>
+	  <tag>shared-workspace-1.0.2</tag>
+  </scm>
 
 	<developers>
 		<developer>
