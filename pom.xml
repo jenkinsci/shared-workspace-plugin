@@ -66,5 +66,10 @@
 			<name>Sergey Mylnikov</name>
 			<email>smylnikov@ac-sw.com</email>
 		</developer>
+		<developer>
+			<id>VestniK</id>
+			<name>Sergey Vidyuk</name>
+			<email>sir.vestnik@gmail.com</email>
+		</developer>
 	</developers>
 </project>
